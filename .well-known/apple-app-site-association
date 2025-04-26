@@ -1,0 +1,31 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "R4T5JT7BZ4.com.sonogen.med"
+        ],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+          },
+          {
+            "/": "/patientID",
+            "comment": "Matches any URL with a path that starts with /patientID."
+          },
+          {
+            "/": "/sms",
+            "comment": "Matches any URL with a path that starts with /sms."
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "R4T5JT7BZ4.com.sonogen.med"
+    ]
+  }
+}
