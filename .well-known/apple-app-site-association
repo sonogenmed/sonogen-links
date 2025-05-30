@@ -12,13 +12,8 @@
             "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
           },
           {
-            "/": "/patientID",
-            "comment": "Matches any URL with a path that starts with /patientID."
+            "/": "/login",
           },
-          {
-            "/": "/sms",
-            "comment": "Matches any URL with a path that starts with /sms."
-          }
         ]
       }
     ]
